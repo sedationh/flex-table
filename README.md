@@ -12,13 +12,17 @@ https://codepen.io/sedationh/pen/oNyMyjO
 
 基本思路是利用 flex 进行布局，利用特定数据结构完成 xxxspan 的效果，实际上没有 xxxspan 类似的填补能力，而是去分割当前单元格（用 .table 来拆）
 
+
+```
 table
-row
-  col
-    col-content
-  table
-    row
-      col
-        col-content
+  row
+    col
+      col-content
+    table
+      row
+        col
+          col-content
+```
+
 
 ![](https://raw.githubusercontent.com/SedationH/storage/master/PicGo20221211134243.png)
